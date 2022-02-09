@@ -1,0 +1,46 @@
+html,body{
+  background-color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  height:100vh;
+}
+
+footer{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myBtn{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color:#ffb4b0;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 50px -1px 9px 5px rgba(0,0,0,0);
+}
+
+.timer{
+  font-size: 100px;
+  background-color: rgba(255, 180, 176, 0.83);
+  
+}
+.myBtn a{
+  display: block;
+  color: white;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.nav-link{
+  cursor: pointer;
+}
