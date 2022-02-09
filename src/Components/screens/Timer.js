@@ -52,9 +52,9 @@ const Timer = () => {
         </div>
         <p>{isRunning ? 'Running' : 'Not running'}</p>
 
-
-        <button className='btn btn-danger m-5' onClick={pause}>Pause</button>
-        <button className='btn btn-danger m-5' onClick={reset}>Reset</button>
+        <button className='btn btn-danger m-3' onClick={start}>Start</button>
+        <button className='btn btn-danger m-3' onClick={pause}>Pause</button>
+        <button className='btn btn-danger m-3' onClick={reset}>Reset</button>
 
         {/* <div><button onClick={stopTimer}>STOP</button></div> */}
         <div className="myBtn"><a onClick={stopTimer}>STOP</a></div>

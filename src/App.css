@@ -15,13 +15,16 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #dc3545;
 }
 
 .myBtn{
   width: 150px;
   height: 150px;
   margin: auto;
+  margin-top: 5px;
   display: flex;
+  color:#ffffff;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
