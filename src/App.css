@@ -1,5 +1,6 @@
 html,body{
   background-color: #ffffff;
+  color: #727171;
 }
 
 a{
@@ -11,10 +12,15 @@ main{
 }
 
 footer{
-  height: 50px;
-  display: flex;
+  all: unset;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
   background-color: #dc3545;
 }
 
@@ -28,14 +34,16 @@ footer{
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color:#ffb4b0;
+  background-color: #e46370;
+
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 50px -1px 9px 5px rgba(0,0,0,0);
 }
 
 .timer{
   font-size: 100px;
-  background-color: rgba(255, 180, 176, 0.83);
-  
+  /* background-color: rgba(255, 180, 176, 0.83); */
+  background-color: #e46370;
+  color: #ffffff;
 }
 .myBtn a{
   display: block;

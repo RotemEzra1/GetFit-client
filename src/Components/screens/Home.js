@@ -49,6 +49,9 @@ const Home = () => {
             {/* <p>{quote}</p>
             <p>{from}</p> */}
             <div className="myBtn"><Link to="/timer">START</Link></div>
+          
+            <h3 className="text-center m-3"><i>“Run when you can, walk if you have to, crawl if you must. just never give up.”</i></h3>
+            <h5><i>– Dean Karnazes</i></h5>
 
         </>
     )

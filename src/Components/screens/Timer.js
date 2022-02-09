@@ -46,7 +46,7 @@ const Timer = () => {
       <Logo />
       <div style={{ textAlign: 'center' }}>
 
-        <h1>Timer</h1>
+        <h1>TIMER</h1>
         <div className='timer'>
           <span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span>
         </div>
