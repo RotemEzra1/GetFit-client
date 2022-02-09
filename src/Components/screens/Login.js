@@ -52,7 +52,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            let res = await axios.post("http://localhost:3005/auth/new",{
+            let res = await axios.post("https://getfit-app.herokuapp.com/auth/new",{
                 email:email,
                 password:password
             });  
